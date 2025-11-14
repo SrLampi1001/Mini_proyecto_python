@@ -85,6 +85,7 @@ def mostrar_tareas(): #función para mostrar todas las tareas
 	i = 1;
 	for tarea in tareas:
 		print(f"tarea número: {i}:\n{tarea["titulo"]}:\n{tarea["contenido"]}\nFinalizada: {"Si"if (tarea["finalizada"] ==True) else "No"}\n")
+		i = i+1
 
 while True: #menú
 	message = """
